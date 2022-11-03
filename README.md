@@ -1,4 +1,4 @@
-bismillah
+bismillah her hayrın başıdır.
 # flutterapp
 
 A new Flutter project.
