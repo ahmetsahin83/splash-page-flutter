@@ -18,7 +18,7 @@ class _SplashPageState extends State<SplashPage> {
      
       
     }
-     Timer(const Duration(seconds: 2), () => Navigator.pushReplacementNamed(context, "/"),);
+     Timer(const Duration(seconds: 2), () => Navigator.of(context).pushNamedAndRemoveUntil("/", (route) => false);
     
     return Scaffold(
       body: Center(
